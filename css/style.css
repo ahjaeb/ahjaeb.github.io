@@ -17,22 +17,19 @@ a {
   text-decoration: none;
 }
 
-a:visited {
-  text-decoration: underline;
-  color: hsl(319, 84%, 49%);
-}
-
-a:hover {
-  text-decoration: underline;
-  color: hsl(216, 100%, 51%);
-}
-
-a:active,
 a:link {
-  text-decoration: none;
-  color: hsl(78, 100%, 50%);
-
-}
+  color: #CC0000;
+ }
+ a:visited {
+  color: #1f18a3;
+ }
+ a:hover {
+  color: #6b0a73;
+  text-decoration: underline;
+ }
+ a:active {
+  color: #87b330;
+ }
 
 .box {
   margin: 10px;
