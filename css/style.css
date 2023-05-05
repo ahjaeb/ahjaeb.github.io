@@ -17,17 +17,21 @@ a {
   text-decoration: none;
 }
 
-a:active,
-a:link {
-  text-decoration: none;
+a:visited {
+  text-decoration: underline;
+  color: hsl(319, 84%, 49%);
 }
 
 a:hover {
   text-decoration: underline;
+  color: hsl(216, 100%, 51%);
 }
 
-a:visited {
-  color: hsl(319, 84%, 49%);
+a:active,
+a:link {
+  text-decoration: none;
+  color: hsl(78, 100%, 50%);
+
 }
 
 .box {
@@ -71,7 +75,7 @@ main {
 
 footer {
   grid-area: 3 / 1 / 4 / 3;
-  background-color: #caea57;
+  background-color: #ffffff;
   padding: 10px;
   font-family: 'Arial', sans-serif;
 }
