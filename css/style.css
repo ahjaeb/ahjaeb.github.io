@@ -50,7 +50,7 @@ a:visited {
 
 header {
   grid-area: 1 / 1 / 2 / 3;
-  background-color: #f2781a;
+  background-color: #f74e3c;
   padding: 10px;
   font-family: 'Arial', sans-serif;
 }
@@ -65,13 +65,13 @@ nav {
 
 main {
   grid-area: 2 / 2 / 3 / 3;
-  background-color: #efca5c;
+  background-color: #f0b62e;
   padding: 10px;
 }
 
 footer {
   grid-area: 3 / 1 / 4 / 3;
-  background-color: #f2781a;
+  background-color: #caea57;
   padding: 10px;
   font-family: 'Arial', sans-serif;
 }
