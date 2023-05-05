@@ -64,6 +64,12 @@ nav {
   font-family: 'Quicksand', sans-serif;
 }
 
+.content {
+  max-width: 960px;
+  word-wrap: break-word;
+  margin: 0 auto;
+}
+
 main {
   grid-area: 2 / 2 / 3 / 3;
   background-color: #f0b62e;
